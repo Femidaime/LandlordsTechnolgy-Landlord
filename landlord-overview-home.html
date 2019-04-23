@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <title> Landlords Technology </title>
+  <link rel="apple-touch-icon" href="./app-assets/images/ico/apple-icon-120.png">
+  <link rel="shortcut icon" type="image/x-icon" href="./app-assets/images/ico/favicon.ico">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700|Montserrat+Alternates:300,400,500,700" rel="stylesheet">
+  <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css"
+  rel="stylesheet">
+  <!-- BEGIN VENDOR CSS-->
+  <link rel="stylesheet" type="text/css" href="./app-assets/css/vendors.css">
+  <link rel="stylesheet" type="text/css" href="./app-assets/vendors/css/ui/prism.min.css">
+  <link rel="stylesheet" type="text/css" href="./app-assets/vendors/css/file-uploaders/dropzone.min.css">
+  <!-- END VENDOR CSS-->
+  <!-- BEGIN MODERN CSS-->
+  <link rel="stylesheet" type="text/css" href="./app-assets/css/app.css">
+  <!-- END MODERN CSS-->
+  <!-- BEGIN Page Level CSS-->
+  <link rel="stylesheet" type="text/css" href="./app-assets/css/core/menu/menu-types/horizontal-menu.css">
+  <link rel="stylesheet" type="text/css" href="./app-assets/css/core/colors/palette-gradient.css">
+  <link rel="stylesheet" type="text/css" href="./app-assets/css/plugins/file-uploaders/dropzone.css">
+  <!-- END Page Level CSS-->
+  <!-- BEGIN Custom CSS-->
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <!-- END Custom CSS-->
+</head>
+<body class="horizontal-layout horizontal-menu horizontal-menu-padding 2-columns   menu-expanded"
+data-open="click" data-menu="horizontal-menu" data-col="2-columns">
+<!-- fixed-top-->
+<nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow navbar-static-top navbar-light navbar-brand-center">
+  <div class="navbar-wrapper">
+    <div class="navbar-header">
+      <ul class="nav navbar-nav flex-row">
+        <li class="nav-item mobile-menu d-md-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu font-large-1"></i></a></li>
+        <li class="nav-item d-md-none">
+          <a class="nav-link open-navbar-container" data-toggle="collapse" data-target="#navbar-mobile"><i class="la la-ellipsis-v"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-container container center-layout">
+      <div class="collapse navbar-collapse" id="navbar-mobile">
+        <ul class="nav navbar-nav mr-auto float-left">
+          <li class="nav-item">
+            <a class="navbar-brand" href="landlord-overview.html">
+              <img class="brand-logo" alt="modern admin logo" height="50px" src="./app-assets/images/logo/LT.png">
+             <h4 style="float: right; margin: 13px; font-family: 'Montserrat Alternates', sans-serif; font-size: x-large;"> Landlords Technology </h4>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav float-right">
+          <li class="dropdown dropdown-notification nav-item">
+            <a class="nav-link nav-link-label" href="#" data-toggle="dropdown"><i class="ficon ft-bell"></i>
+              <span class="badge badge-pill badge-default badge-danger badge-default badge-up badge-glow">5</span>
+            </a>
+
+          </li>
+          <li class="dropdown dropdown-notification nav-item">
+            <a class="nav-link nav-link-label" href="#" data-toggle="dropdown"><i class="ficon ft-mail">             </i></a>
+
+          </li>
+          <li class="dropdown dropdown-user nav-item">
+            <a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
+              <span class="user-name text-bold-700">Roland Igbinoba</span>
+              <span class="user-name text-bold-200">Landlord</span>
+              <span class="avatar avatar-online">
+                <img src="./app-assets/images/icons/avatar.png" alt="avatar"><i></i></span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#"><i class="ft-user"></i> Edit Profile</a>
+                <a class="dropdown-item" href="#"><i class="ft-mail"></i> My Inbox</a>
+                <a class="dropdown-item" href="#"><i class="ft-check-square"></i> Task</a>
+                <a
+                class="dropdown-item" href="#"><i class="ft-message-square"></i> Chats</a>
+                <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="ft-power"></i> Logout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ////////////////////////////////////////////////////////////////////////////-->
+  <div class="header-navbar navbar-expand-sm navbar navbar-horizontal navbar-fixed navbar-dark navbar-without-dd-arrow navbar-shadow"
+  role="navigation" data-menu="menu-wrapper">
+  <div class="header-navbar navbar-expand-sm navbar navbar-horizontal navbar-fixed navbar-dark navbar-without-dd-arrow navbar-shadow"
+  role="navigation" data-menu="menu-wrapper">
+  <div class="navbar-container main-menu-content container center-layout" data-menu="menu-container">
+    <ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation">
+      <li class="dropdown nav-item" data-menu="dropdown">
+        <a class="dropdown-toggle nav-link" href="landlord-overview.html"><i class="la la-th-large"></i>
+          <span>Overview</span>
+        </a>
+      </li>
+      <li class="dropdown nav-item active"><a class="dropdown-toggle nav-link" href="landlord-property.html"><i class="la la-home"></i><span>Property</span></a>
+      </li>
+      <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" href="landlord-finance.html"><i class="la la-money"></i><span>Finance</span></a>
+      </li>
+      <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" href="landlord-agreement.html"><i class="la file-text"></i><span>Agreement</span></a>
+      </li>
+      <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" href="landlord-Messages.html"><i class="la la-envelope"></i><span>Message</span></a>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+<div class="app-content container center-layout mt-2">
+  <div class="content-wrapper">
+    <div class="content-header row">
+      <div class="content-header-left col-md-6 col-12 mb-2">
+        <span class="user-name text-bold-200" style="font-size: 14px;">Post Your Property & Documents for Authentication & Validation</span>
+      </div>
+    </div>
+    <div class="content-body">
+      <div class="col-xl-12 col-lg-12">
+        <div class="card">
+          <div class="card-content">
+            <div class="card-body">
+              <ul class="nav nav-tabs nav-top-border no-hover-bg nav-justified">
+                <li class="nav-item">
+                  <a class="nav-link active" id="active-tab1" data-toggle="tab" href="#active1" aria-controls="active1"
+                  aria-expanded="true">Address</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="link-tab1" data-toggle="tab" href="#link1" aria-controls="link1"
+                  aria-expanded="false">Description</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="dropdownOpt1-tab1" data-toggle="tab" href="#dropdownOpt12" aria-controls="link1"
+                  aria-expanded="false">Amount</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" id="linkOpt-tab1" data-toggle="tab" href="#linkOpt1" aria-controls="linkOpt1">Uploads</a>
+                </li>
+              </ul>
+              <div class="tab-content px-1 pt-1">
+                <div role="tabpanel" class="tab-pane active" id="active1" aria-labelledby="active-tab1"
+                aria-expanded="true">
+                <div class="card">
+                  <div class="card-header">
+                    <h4 class="card-title" id="basic-layout-form-center">Address</h4>
+                    <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                  </div>
+                  <div class="card-content collapse show">
+                    <div class="card-body">
+                      <form class="form">
+                        <div class="row justify-content-md-center">
+                          <div class="col-md-6">
+                            <div class="form-body">
+                              <div class="form-group">
+                                <label for="eventInput1">States</label>
+                                <select class="selectpicker form-control">
+                                  <option>Select Your State</option>
+                                  <option value="Abia">Abia</option>
+                                  <option value="Adamawa">Adamawa</option>
+                                  <option value="Akwa Ibom">Akwa Ibom</option>
+                                  <option value="Anambra">Anambra</option>
+                                  <option value="Bauchi">Bauchi</option>
+                                  <option value="Bayelsa">Bayelsa</option>
+                                  <option value="Benue">Benue</option>
+                                  <option value="Borno">Borno</option>
+                                  <option value="Cross River">Cross River</option>
+                                  <option value="Delta">Delta</option>
+                                  <option value="Ebonyi">Ebonyi</option>
+                                  <option value="Edo">Edo</option>
+                                  <option value="Ekiti">Ekiti</option>
+                                  <option value="Enugu">Enugu</option>
+                                  <option value="FCT">FCT</option>
+                                  <option value="Gombe">Gombe</option>
+                                  <option value="Imo">Imo</option>
+                                  <option value="Jigawa">Jigawa</option>
+                                  <option value="Kaduna">Kaduna</option>
+                                  <option value="Kano">Kano</option>
+                                  <option value="Katsina">Katsina</option>
+                                  <option value="Kebbi">Kebbi</option>
+                                  <option value="Kogi">Kogi</option>
+                                  <option value="Kwara">Kwara</option>
+                                  <option value="Lagos">Lagos</option>
+                                  <option value="Nasarawa">Nasarawa</option>
+                                  <option value="Niger">Niger</option>
+                                  <option value="Ogun">Ogun</option>
+                                  <option value="Ondo">Ondo</option>
+                                  <option value="Osun">Osun</option>
+                                  <option value="Oyo">Oyo</option>
+                                  <option value="Plateau">Plateau</option>
+                                  <option value="Rivers">Rivers</option>
+                                  <option value="Sokoto">Sokoto</option>
+                                  <option value="Taraba">Taraba</option>
+                                  <option value="Yobe">Yobe</option>
+                                  <option value="Zamfara">Zamfara</option>
+                                </select>
+                              </div>
+                              <div class="form-group">
+                                <label for="eventInput2">LGA</label>
+                                <input type="text" id="eventInput2" class="form-control" placeholder="LGA" name="LGA">
+                              </div>
+                              <div class="form-group">
+                                <label for="eventInput3">Area</label>
+                                <input type="text" id="eventInput3" class="form-control" placeholder="Area" name="Area">
+                              </div>
+                              <div class="form-group">
+                                <label for="eventInput4">Property Address</label>
+                                <input type="Address" id="eventInput4" class="form-control" placeholder="Address" name="Address">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-actions center">
+                          <button type="button" class="btn btn-warning mr-1">
+                            <i class="ft-x"></i> Cancel
+                          </button>
+                          <button type="submit" class="btn btn-primary">
+                            <i class="la la-check-square-o"></i> Save
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="link1" role="tabpanel" aria-labelledby="link-tab1" aria-expanded="false">
+                <div class="card">
+                  <div class="card-header">
+                    <h4 class="card-title" id="basic-layout-form-center">Property Description</h4>
+                    <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                  </div>
+                  <div class="card-content collapse show">
+                    <div class="card-body">
+                      <form class="form">
+                        <div class="row justify-content-md-center">
+                          <div class="col-md-6">
+                            <div class="form-body">
+                              <div class="form-group">
+                                <label for="eventInput1">Title Of Documents</label>
+                                <input type="text" id="eventInput1" class="form-control" placeholder="name" name="fullname">
+                              </div>
+                              <div class="form-group">
+                                <label for="eventInput1">Use Of Property</label>
+                                <select class="selectpicker form-control">
+                                  <option>Select Use Of Property</option>
+                                  <option value="Short-Lease">Short Lease</option>
+                                  <option value="For-Rent">For Rent</option>
+                                  <option value="For-Sale"> For Sale</option>
+                                </select>
+                              </div>
+                              <div class="form-group">
+                                <label for="eventInput1">Type Of Property</label>
+                                <select class="selectpicker form-control">
+                                  <option>Select type of property</option>
+                                  <option value="Office-Space">Office Space</option>
+                                  <option value="Flat-Apartment">Flat/Apartment</option>
+                                  <option value="House">House</option>
+                                  <option value="Land">Land</option>
+                                </select>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-3">
+                                  <div class="form-group">
+                                    <label for="eventInput3">Bedrooms</label>
+                                    <select class="selectpicker form-control">
+                                      <option>Select</option>
+                                      <option value="1">1</option>
+                                      <option value="2">2</option>
+                                      <option value="3">3</option>
+                                      <option value="">4</option>
+                                      <option value="4+">More than 4</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-md-3">
+                                  <div class="form-group">
+                                    <label for="eventInput3">Bathrooms</label>
+                                    <select class="selectpicker form-control">
+                                      <option>Select</option>
+                                      <option value="1">1</option>
+                                      <option value="2">2</option>
+                                      <option value="3">3</option>
+                                      <option value="">4</option>
+                                      <option value="4+">More than 4</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-md-3">
+                                  <div class="form-group">
+                                    <label for="eventInput3">Toilet</label>
+                                    <select class="selectpicker form-control">
+                                      <option>Select</option>
+                                      <option value="1">1</option>
+                                      <option value="2">2</option>
+                                      <option value="3">3</option>
+                                      <option value="">4</option>
+                                      <option value="4+">More than 4</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <label for="issueinput8">Additional information</label>
+                                <textarea id="issueinput8" rows="5" class="form-control" name="comments" placeholder=""
+                                data-toggle="tooltip" data-trigger="hover" data-placement="top"
+                                data-title="Comments"></textarea>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-actions center">
+                          <button type="button" class="btn btn-warning mr-1">
+                            <i class="ft-x"></i> Cancel
+                          </button>
+                          <button type="submit" class="btn btn-primary">
+                            <i class="la la-check-square-o"></i> Save
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="dropdownOpt12" role="tabpanel" aria-labelledby="dropdownOpt2-tab1"
+              aria-expanded="false">
+              <div class="card">
+                <div class="card-header">
+                  <h4 class="card-title" id="basic-layout-form-center">Property Amount</h4>
+                  <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                </div>
+                <div class="card-content collapse show">
+                  <div class="card-body">
+                    <form class="form">
+                      <div class="row justify-content-md-center">
+                        <div class="col-md-6">
+                          <div class="form-body">
+                            <div class="form-group">
+                              <label for="eventInput1">Currency</label>
+                              <select class="selectpicker form-control">
+                                <option>Select Current</option>
+                                <option value="Naira">Naira</option>
+                                <option value="Dollars">Dollars</option>
+                              </select>
+                            </div>
+                            <div class="form-group">
+                              <label for="eventInput2">Price</label>
+                              <input type="text" id="eventInput2" class="form-control" placeholder="Price" name="Price">
+                            </div>
+                            <div class="form-group">
+                              <label for="eventInput1">Duration</label>
+                              <select class="selectpicker form-control">
+                                <option>Select duration required</option>
+                                <option value="Daily">Daily</option>
+                                <option value="Monthly">Monthly</option>
+                                <option value="Yearly">Yearly</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-actions center">
+                        <button type="button" class="btn btn-warning mr-1">
+                          <i class="ft-x"></i> Cancel
+                        </button>
+                        <button type="submit" class="btn btn-primary">
+                          <i class="la la-check-square-o"></i> Save
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="linkOpt1" role="tabpanel" aria-labelledby="linkOpt-tab1"
+            aria-expanded="false">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title" id="basic-layout-form-center">Property Document Uploads</h4>
+                <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+              </div>
+              <div class="card-content collapse show">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="card">
+                        <div class="card-content collapse show">
+                          <div class="card-body">
+                            <p class="card-text">(please attach files or images of your property document & note that clearer images would get quicker responses).</p>
+                            <form action="#" class="dropzone dropzone-area" id="dpz-multiple-files">
+                              <div class="dz-message">Drop Multiple Files Here To Upload</div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="btn btn-outline-primary" href="landlord-overview-home.html" style="margin: 1rem; padding: 0.6rem 2rem;"> Submit </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+  <!-- BEGIN VENDOR JS-->
+  <script src="./app-assets/vendors/js/extensions/dropzone.min.js" type="text/javascript"></script>
+  <script src="./app-assets/vendors/js/ui/prism.min.js" type="text/javascript"></script>
+  <script src="./app-assets/vendors/js/vendors.min.js" type="text/javascript"></script>
+  <!-- BEGIN VENDOR JS-->
+  <!-- BEGIN PAGE VENDOR JS-->
+  <script type="text/javascript" src="./app-assets/vendors/js/ui/jquery.sticky.js"></script>
+  <!-- END PAGE VENDOR JS-->
+  <!-- BEGIN MODERN JS-->
+  <script src="./app-assets/js/core/app-menu.js" type="text/javascript"></script>
+  <script src="./app-assets/js/core/app.js" type="text/javascript"></script>
+  <script src="./app-assets/js/scripts/customizer.js" type="text/javascript"></script>
+  <!-- END MODERN JS-->
+  <!-- BEGIN PAGE LEVEL JS-->
+  <!-- END PAGE LEVEL JS-->
+</body>
+</html>
